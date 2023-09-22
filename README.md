@@ -96,6 +96,36 @@ Podemos ordenar os elementos da lista comparator usando o método Collection.sor
 
 # List Interface
 
+# Operções básicas com o List
+
+Ver arquivos no pacote list.
+A Interface List implemeta a Interfaces Iterable e Collections
+
+
+O List pode conter elementos duplicados.
+
+# Utilizando Set em Java
+
+A Interface Set implementa a Interfaces Iterable e Collections
+
+O Set não permite conter elementos duplicados.
+
+Represena conjuntos 
+Ex 
+
+Baralho de cartas, porém de diferentes cartas....
+
+A plataforma Java possui três implementações de Set
+
+HashSet serão inseridos em forma aleatória.
+
+
+
+
+
+
+
+
 
 
 
