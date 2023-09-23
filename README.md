@@ -141,6 +141,23 @@ public int hashCode(){
 
 # TreeSet --> deixa a lista de Set organizada
 
+# Trabalhando com MAP
+
+O Elemento map mapeia Chave e valor
+O map não pode ter chaves duplicadas
+
+.put --> adicionar
+.get --> passar a chave para obter o valor
+
+contains(chave)
+size();
+
+Caracteristicas principais náo herda de 
+Iterable e collections, 
+porem faz parte do framework collections in Java
+
+O método put serve para adicionar ou atualizar os dados de um Map, passando a chave e o valor.
+
 
 
 
