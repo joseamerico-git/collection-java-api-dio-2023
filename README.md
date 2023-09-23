@@ -108,7 +108,7 @@ O List pode conter elementos duplicados.
 
 A Interface Set implementa a Interfaces Iterable e Collections
 
-O Set não permite conter elementos duplicados.
+O Set não permite conter elementos duplicados, tamém não existe getIndex
 
 Represena conjuntos 
 Ex 
@@ -119,7 +119,27 @@ A plataforma Java possui três implementações de Set
 
 HashSet serão inseridos em forma aleatória.
 
+TreeSet 
 
+Para impedir o Set de admitir valores de id(s) iguais precisamos implementar subscrever os métodos abaixo na classe do objeto. 
+```
+
+@Override()
+public boolean equals(Object c){
+    if(this==c) return true;
+    if(!(c instanceof Convidado convidado)) return false;
+    return getCodigoConvite() == convidado.getCodigoConvite();
+    
+}
+@Override
+public int hashCode(){
+    return Objects.hash(getCodigoConvite());
+}
+```
+
+# HashSet --> não deixa a lista de Set organizada
+
+# TreeSet --> deixa a lista de Set organizada
 
 
 
