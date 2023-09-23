@@ -158,7 +158,27 @@ porem faz parte do framework collections in Java
 
 O método put serve para adicionar ou atualizar os dados de um Map, passando a chave e o valor.
 
+# Em Resumo:
 
+List é uma interface referente a listas de objetos, essas listas tem característica de poder ter dados duplicados independente de serem iguais e de mesma instância.
+
+Set são coleções que agregam dados sem duplica-los, ou seja, não existem dados iguais no Set, já são removidos por padrão.
+
+Map são mapas de chave/valor, muito utilizado para guardar dados genéricos e de fácil acesso.
+
+ArrayList – São Arrays que implementam a interface List e todos os seus métodos, dão a facilidade de manipular o seu tamanho a qualquer momento, ou seja, aumentão e diminuem seu tamanho dinamicamente (automaticamente). Não são sincronizados, para sincroniza-los é necessário fazer um wrapp como a seguir:
+
+List<?> list = Collections.synchronizedList(new ArrayList<?>());
+
+
+# Collections:
+- São objetos que agrupam multiplos elementos dentro de uma única unidade.
+- Garnte segurança do tipo de dados evitando erros de tipos
+- As interfaces que implementam collection diretamente são List, Set, Queue
+
+# List 
+
+- Permite inserir elementos duplicados e garante a ordem de inserção
 
 
 
